@@ -1,0 +1,103 @@
+/* PORTAFOLIO DE NICOLÁS - Identidad arcade editorial, independiente del diseño de Andrés */
+:root{--nico-fondo:#100e1e;--nico-panel:#1b1930;--nico-tarjeta:#24213a;--nico-borde:#403a58;--nico-texto:#f5f3ff;--nico-apagado:#bdb6cd;--nico-lima:#d3fb65;--nico-lavanda:#b998ff;--nico-rosa:#ff729c}
+html{scroll-behavior:smooth}
+.pagina-nicolas{background:var(--nico-fondo);color:var(--nico-texto);font-family:'Trebuchet MS','Segoe UI',Arial,sans-serif;line-height:1.65}
+.pagina-nicolas a{color:inherit}
+.pagina-nicolas .hero-header{padding:0;background:radial-gradient(ellipse at 72% 32%,#3d2869 0%,#1a1634 34%,#100e1e 75%);border:none;border-bottom:1px solid var(--nico-borde);text-align:left;overflow:hidden}
+.pagina-nicolas .encabezado-superior{padding:20px clamp(20px,5vw,70px);display:flex;align-items:center;justify-content:space-between;gap:15px;border-bottom:1px solid #3a3452}
+.pagina-nicolas .marca-estudio{font-size:.78rem;text-decoration:none;font-weight:800;letter-spacing:1.4px;display:flex;align-items:center;gap:10px;color:#faf7ff}
+.pagina-nicolas .marca-bloque{background:var(--nico-lima);color:#100e1e;padding:3px 9px;border-radius:4px;font-weight:900;font-size:1.1rem}
+.pagina-nicolas .marca-separador{color:var(--nico-lavanda)}
+.pagina-nicolas .estado-creativo{font-size:.65rem;color:#c9c4d8;letter-spacing:1.5px;white-space:nowrap;font-weight:700}
+.pagina-nicolas .punto-vivo{display:inline-block;background:var(--nico-lima);width:7px;height:7px;border-radius:50%;margin-right:9px;box-shadow:0 0 13px #c6fa5a}
+.pagina-nicolas .hero-contenido{max-width:1320px;min-height:490px;margin:auto;padding:65px 6% 55px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:30px}
+.pagina-nicolas .eyebrow,.pagina-nicolas .seccion-numero{font-size:.75rem;letter-spacing:2.3px;color:var(--nico-lima);font-weight:800;margin-bottom:17px}
+.pagina-nicolas .hero-izquierda h1{font-size:clamp(3rem,7.6vw,7rem);letter-spacing:-.065em;line-height:.98;color:#f4f0fb;font-weight:1000;margin:0 0 23px}
+.pagina-nicolas .hero-izquierda h1 span{color:var(--nico-lima)}
+.pagina-nicolas .hero-izquierda h1 .punto-titulo{color:#f6efff}
+.pagina-nicolas .hero-izquierda .bajada{font-size:1.12rem;max-width:440px;margin:0 0 28px;color:#cbc3d8}
+.pagina-nicolas .boton-hero{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;padding:15px 22px;background:var(--nico-lima);border-radius:5px;text-decoration:none;color:#171425;font-size:.79rem;font-weight:900;letter-spacing:.6px;box-shadow:6px 6px 0 #6952a4;transition:transform .2s}
+.pagina-nicolas .boton-hero:hover{transform:translate(-2px,-2px)}
+.pagina-nicolas .hero-derecha{position:relative;min-height:360px;display:grid;place-items:center;isolation:isolate}
+.pagina-nicolas .hero-derecha:before{content:'';position:absolute;width:315px;height:315px;background:radial-gradient(circle,#b998ff43 0%,transparent 66%);z-index:-1}
+.pagina-nicolas .orbita{border:2px solid #ab89fa66;position:absolute;transform:rotate(17deg);border-radius:26px}
+.pagina-nicolas .orbita-a{width:270px;height:270px}.pagina-nicolas .orbita-b{width:350px;height:210px;transform:rotate(-29deg);border-color:#d3fb6560}
+.pagina-nicolas .pixel-avatar{font-weight:1000;letter-spacing:-.14em;line-height:1;text-shadow:13px 11px 0 #502d87;font-size:clamp(7.5rem,13vw,13rem);color:#d3fb65;transform:rotate(-8deg)}
+.pagina-nicolas .pixel-avatar span{color:#f8f5ff}
+.pagina-nicolas .figura-flotante{position:absolute;font-size:3.2rem;color:var(--nico-rosa)}
+.pagina-nicolas .figura-uno{top:10%;right:20%}.pagina-nicolas .figura-dos{bottom:14%;left:10%;font-size:2.1rem;color:var(--nico-lima)}
+.pagina-nicolas .marcador-sello{position:absolute;right:5%;bottom:15%;transform:rotate(-10deg);font-size:.65rem;letter-spacing:2px;color:#aaa0c0}
+.pagina-nicolas .nav-bar{padding:16px 6%;margin:0;border-top:1px solid #3a3452;gap:8px;justify-content:center}
+.pagina-nicolas .nav-bar a{color:#cdc5e0;background:#25213a;border:1px solid #4b416b;border-radius:100px;padding:8px 16px;text-decoration:none;font-size:.8rem;font-weight:800}
+.pagina-nicolas .nav-bar a:hover,.pagina-nicolas .nav-bar a:focus-visible{background:#433365;transform:none;color:white}
+.pagina-nicolas .nav-bar .nav-destacado{background:#d3fb65;color:#1b1731;border-color:#d3fb65}
+.pagina-nicolas .container{max-width:1200px;margin:auto;padding:55px 24px}
+.pagina-nicolas section{background:var(--nico-panel);border:1px solid var(--nico-borde);border-radius:14px;padding:32px;margin-bottom:28px;box-shadow:9px 9px 0 rgba(5,4,15,.25);scroll-margin-top:22px}
+.pagina-nicolas section h2{color:#f7f4ff;font-size:clamp(1.6rem,3.4vw,2.25rem);border:0;padding:0;margin:0 0 18px;letter-spacing:-.035em}
+.pagina-nicolas h3{color:var(--nico-lima)}
+.pagina-nicolas #identidad .perfil-grid{grid-template-columns:minmax(200px,320px) 1fr;gap:40px}
+.pagina-nicolas .perfil-grid img{border:4px solid var(--nico-lavanda);border-radius:5px;box-shadow:12px 12px 0 #41355e;width:100%;max-width:320px}
+.pagina-nicolas .perfil-grid p{color:#d2cbdd;margin-bottom:10px}
+.pagina-nicolas .perfil-grid strong{color:var(--nico-lima)}
+.pagina-nicolas .grid-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.pagina-nicolas .card{background:var(--nico-tarjeta);border:1px solid #4c4465;text-align:left;padding:20px;border-radius:11px;overflow:hidden}
+.pagina-nicolas figure{background:#161326;border:0;padding:8px;border-radius:7px;margin-bottom:17px}
+.pagina-nicolas figure img{height:230px;max-height:unset;object-fit:cover;border:0;border-radius:4px}
+.pagina-nicolas .card p,.pagina-nicolas figcaption{color:#c4bbd5}
+.pagina-nicolas figcaption{font-size:.79rem;text-align:left;margin:6px 5px 3px}
+.pagina-nicolas .card h3{color:var(--nico-lima);font-size:1.23rem}
+.pagina-nicolas .card strong{color:#e2d1ff}
+.pagina-nicolas .media-box{background:#26203b;border:1px solid #4b4165;border-radius:10px}
+.pagina-nicolas .media-box h3{color:var(--nico-lavanda)}
+.pagina-nicolas .media-box p,.pagina-nicolas #multimedia>p:not(.seccion-numero){color:#cbc3d9}
+.pagina-nicolas audio,.pagina-nicolas video{max-width:100%}
+/* Formulario demostrativo: apariencia distinta de los demás integrantes */
+.pagina-nicolas .contact-form{gap:15px;max-width:790px}
+.pagina-nicolas .form-group label{color:#eee8f7;font-size:.91rem}
+.pagina-nicolas input[type="text"],.pagina-nicolas input[type="email"],.pagina-nicolas select,.pagina-nicolas textarea{background:#111022;color:#f6f3fc;border:1px solid #64567c;border-radius:5px;padding:12px 14px;width:100%}
+.pagina-nicolas input:focus,.pagina-nicolas select:focus,.pagina-nicolas textarea:focus{outline:2px solid #d3fb65;outline-offset:1px;border-color:#d3fb65}
+.pagina-nicolas .radio-group{background:#111022;border:1px solid #64567c;border-radius:6px}
+.pagina-nicolas .radio-option{color:#e7ddf0!important;font-weight:400!important}
+.pagina-nicolas button[type="submit"]{background:var(--nico-lima);color:#161323;border-radius:5px;font-weight:900}
+.pagina-nicolas button[type="submit"]:hover{background:#edff9d}
+.pagina-nicolas .aviso-demo{background:#2f293d;border-left:4px solid #d3fb65;color:#dfe7be}
+.pagina-nicolas footer{background:#141123;border-top:1px solid #4b4260;color:#b3a9c9}
+.pagina-nicolas footer a{color:var(--nico-lima)}
+/* EL GENERADOR DE CANVAS */
+.pagina-nicolas .laboratorio{background:#17132b;border:1px solid #66578a;padding:0;overflow:hidden}
+.pagina-nicolas .lab-intro{padding:34px 32px 22px;display:grid;grid-template-columns:1.05fr .95fr;align-items:end;gap:34px}
+.pagina-nicolas .lab-intro .seccion-numero{margin-bottom:12px}
+.pagina-nicolas .lab-etiqueta{display:inline-block;color:var(--nico-lavanda);letter-spacing:1.5px;font-size:.7rem;font-weight:800;margin-bottom:8px}
+.pagina-nicolas .lab-intro h2{margin:0;font-size:clamp(2.4rem,5.5vw,4.7rem);font-weight:1000;line-height:1;letter-spacing:-.06em}
+.pagina-nicolas .lab-intro h2 span{color:var(--nico-lima)}
+.pagina-nicolas .lab-descripcion{color:#c9c0de;font-size:.98rem;max-width:485px;padding-bottom:6px}
+.pagina-nicolas .lab-marco{margin:0 30px;background:#0c0b17;border:1px solid #6a588b;border-radius:8px;overflow:hidden}
+.pagina-nicolas .canvas-superior,.pagina-nicolas .canvas-inferior{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px 18px;background:#1e1934;color:#baaed5;font-size:.69rem;font-weight:700;letter-spacing:1.2px}
+.pagina-nicolas .canvas-superior{border-bottom:1px solid #625377}.pagina-nicolas .canvas-inferior{border-top:1px solid #625377}
+.pagina-nicolas .led{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--nico-lima);margin-right:7px}
+.pagina-nicolas .lab-grid{display:grid;grid-template-columns:minmax(0,1fr) 225px;gap:0;align-items:stretch}
+.pagina-nicolas .canvas-area{display:flex;align-items:center;justify-content:center;background:#070610;padding:10px;min-width:0}
+.pagina-nicolas #canvasNicolas{display:block;width:100%;height:auto;max-width:960px;aspect-ratio:960/620;background:#09091b;border-radius:3px}
+.pagina-nicolas .panel-creative{background:#221c38;padding:19px;border-left:1px solid #594875;display:flex;flex-direction:column;min-width:0}
+.pagina-nicolas .panel-cabecera{display:flex;justify-content:space-between;color:var(--nico-lima);font-size:.63rem;font-weight:900;letter-spacing:1.1px;margin-bottom:28px}
+.pagina-nicolas .panel-creative h3{font-size:1.52rem;line-height:1.12;letter-spacing:-.04em;margin-bottom:14px;color:#fff}
+.pagina-nicolas .panel-creative>p{font-size:.81rem;color:#beb5d2;line-height:1.5;margin-bottom:22px}
+.pagina-nicolas .selector-paleta>span{color:#d1c6e8;letter-spacing:1px;font-size:.64rem;font-weight:800;display:block;margin-bottom:9px}
+.pagina-nicolas .paleta-opcion{width:100%;padding:11px 9px;border:1px solid #56486d;border-radius:6px;color:#e8e2f1;background:#171328;font:800 .73rem 'Trebuchet MS','Segoe UI',sans-serif;display:flex;align-items:center;justify-content:space-between;gap:7px;margin-bottom:9px;cursor:pointer}
+.pagina-nicolas .paleta-opcion:hover,.pagina-nicolas .paleta-opcion:focus-visible,.pagina-nicolas .paleta-opcion.activa{border-color:#d3fb65;background:#312944}
+.pagina-nicolas .muestras{display:flex;gap:3px}
+.pagina-nicolas .muestras i{display:block;width:13px;height:13px;border-radius:2px;background:#d3fb65}
+.pagina-nicolas .muestras-1 i:nth-child(2){background:#76f7e3}.pagina-nicolas .muestras-1 i:nth-child(3){background:#ff6fba}.pagina-nicolas .muestras-1 i:nth-child(4){background:#ffb35c}
+.pagina-nicolas .muestras-2 i:nth-child(1){background:#ff77bb}.pagina-nicolas .muestras-2 i:nth-child(2){background:#a48bff}.pagina-nicolas .muestras-2 i:nth-child(3){background:#ffcf74}.pagina-nicolas .muestras-2 i:nth-child(4){background:#6cc8ff}
+.pagina-nicolas .acciones-lab{margin-top:18px;display:grid;gap:10px}
+.pagina-nicolas .acciones-lab button{font:900 .75rem 'Trebuchet MS','Segoe UI',sans-serif;letter-spacing:.4px;padding:13px 8px;border-radius:5px;cursor:pointer;transition:transform .15s ease}
+.pagina-nicolas .acciones-lab button:hover{transform:translateY(-2px)}
+.pagina-nicolas .boton-generar{background:var(--nico-lima);border:1px solid var(--nico-lima);color:#111020}
+.pagina-nicolas .boton-descargar{background:transparent;border:1px solid var(--nico-lavanda);color:#f4edff}
+.pagina-nicolas .panel-creative #nicoEstado{margin:20px 0 0;font-size:.68rem;color:#b9ebb4;border-top:1px solid #524365;padding-top:10px}
+.pagina-nicolas .lab-nota{padding:19px 32px 25px;color:#c7bdd9;font-size:.85rem}
+.pagina-nicolas .lab-nota strong{color:var(--nico-lima)}
+@media(max-width:900px){.pagina-nicolas .lab-grid{grid-template-columns:1fr}.pagina-nicolas .panel-creative{border-left:0;border-top:1px solid #594875}.pagina-nicolas .panel-creative h3 br{display:none}.pagina-nicolas .selector-paleta{max-width:550px}.pagina-nicolas .acciones-lab{grid-template-columns:1fr 1fr}.pagina-nicolas .panel-cabecera{margin-bottom:16px}}
+@media(max-width:720px){.pagina-nicolas .hero-contenido{grid-template-columns:1fr;padding:48px 23px 28px}.pagina-nicolas .hero-derecha{min-height:250px}.pagina-nicolas .pixel-avatar{font-size:9rem}.pagina-nicolas .orbita-a{width:215px;height:215px}.pagina-nicolas .orbita-b{width:260px;height:160px}.pagina-nicolas .hero-izquierda h1{font-size:clamp(3.4rem,12vw,6rem)}.pagina-nicolas .estado-creativo{display:none}.pagina-nicolas .encabezado-superior{padding:17px 23px}.pagina-nicolas .container{padding:27px 13px}.pagina-nicolas section{padding:22px 18px}.pagina-nicolas #identidad .perfil-grid{grid-template-columns:1fr}.pagina-nicolas .grid-cards{grid-template-columns:1fr}.pagina-nicolas .lab-intro{grid-template-columns:1fr;gap:12px;padding:26px 20px 20px}.pagina-nicolas .lab-marco{margin:0 12px}.pagina-nicolas .lab-nota{padding:18px 20px}.pagina-nicolas .canvas-superior,.pagina-nicolas .canvas-inferior{font-size:.57rem;padding:9px}.pagina-nicolas .acciones-lab{grid-template-columns:1fr}}
+@media(max-width:480px){.pagina-nicolas .nav-bar{justify-content:flex-start;padding:12px}.pagina-nicolas .nav-bar a{font-size:.72rem;padding:8px 11px}.pagina-nicolas .marca-estudio{font-size:.65rem}.pagina-nicolas .lab-intro h2{font-size:2.8rem}.pagina-nicolas .canvas-inferior span:last-child{display:none}.pagina-nicolas .card{padding:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.pagina-nicolas *{transition:none!important}}
